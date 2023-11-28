@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiplist>
+    <id>com.qnx.${baselineId}.osr.csmith.internal</id>
+    <name>Csmith-2.3.0 Library - Internal Assets</name>
+    <description>A random generator of C programs</description>
+    <category>OSR</category>
+    <property key="f.support" value="Custom"/>
+    <property key="f.swtype" value="III"/>
+    <property key="f.engage" value="B"/>
+    
+    <property key="com.qnx.internal" value="true"/>
+    <!-- don't generate provides/requires tags for internal packages-->
+    <requires value="suppress-library: autogen"/>
+    <provides value="suppress-library: autogen"/>
+
+    <file name="${targetfolder}/[ARCH]/usr/lib/libcsmith.a" />
+    <file name="${targetfolder}/[ARCH]/usr/lib/libcsmith.so.0.0.0" />
+    <file name="${targetfolder}/[ARCH]/usr/lib/libcsmith.so.0" />
+    <file name="${targetfolder}/[ARCH]/usr/lib/libcsmith.so" />
+    <asset dest="${targetfolder}/usr/include/csmith/" />
+<shiplist>

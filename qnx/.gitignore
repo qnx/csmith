@@ -1,0 +1,5 @@
+!build
+build/nto-aarch64-le/*
+!build/nto-aarch64-le/Makefile
+build/nto-x86_64-o/*
+!build/nto-x86_64-o/Makefile
